@@ -1,0 +1,41 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.recommend {
+  display: flex; /* to lay things out horizontally or vertically */
+  cursor: pointer;
+  width: 800px;
+}
+
+.view-info {
+  display: flex;
+  justify-content: space-between;
+  color: grey;
+  font-size: 0.7rem;
+}
+
+.preview {
+  position: relative;
+  margin-right: 0.5rem;
+}
+
+.time {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: black;
+  color: white;
+  padding: 0.1rem;
+  border-radius: 0.25rem;
+}
+
+.username {
+  font-size: 0.7rem;
+  color: grey;
+}
+
+.title {
+  font-weight: bold;
+}
